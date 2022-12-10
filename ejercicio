@@ -1,0 +1,59 @@
+// Crear clase Persona.
+//Crear variables las privadas edad, nombre y telefono de la clase Persona.
+// Crear gets y sets de cada propiedad.
+// Crear un objeto persona en el main.
+// Utiliza los gets y sets para darle valores a las propiedades edad, nombre y telefono, por último muéstralas por consola.
+
+
+class persona{
+    private int edad;
+    private String nombre;
+    private int telefono;
+
+
+
+public persona() {
+    }
+
+//getters y setters
+public int getedad() {
+    return edad; 
+}
+
+public static void setEdad(int edad) {
+    this.edad = edad;
+}
+    
+public PrintStream getnonmbre() {
+    return nombre;  
+}
+
+public static void setNombre(String nombre) {
+    this.nombre = nombre;
+}
+
+public int gettelefono() {
+   return telefono; 
+}
+
+public static void setTelefono(int telefono) {
+    this.telefono = telefono;
+}
+
+}
+
+public static void main(String[] args) {
+    persona persona1= new persona();
+    persona.setNombre("Pablo");
+    persona.setEdad(26);
+    persona.setTelefono(62342932);
+    
+    System.setOut0(persona1.getnonmbre());
+    System.setOut0(persona1.getedad());
+    
+
+
+}
+
+
+}
